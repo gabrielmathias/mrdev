@@ -39,5 +39,6 @@
     - v4l2loopback-dkms
     - vlc
     - wget
+    - xclip
     - xrdp
     - zim

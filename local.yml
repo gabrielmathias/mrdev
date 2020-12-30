@@ -1,4 +1,6 @@
 - hosts: localhost
   become: true
   tasks:
-  - include: ansible-tasks/docker_ubuntu18.04/task.yml
+  - include: ansible-tasks/packages/common-install.yml
+  tasks:
+  - include: ansible-tasks/docker/ubuntu18.04-install.yml

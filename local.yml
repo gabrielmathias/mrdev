@@ -3,3 +3,5 @@
   tasks:
   - name: Install htop
     apt: name=htop
+  - name: Install wget
+    apt: name=wget

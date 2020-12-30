@@ -2,5 +2,4 @@
   become: true
   tasks:
   - include: ansible-tasks/packages/common-install.yml
-  tasks:
   - include: ansible-tasks/docker/ubuntu18.04-install.yml

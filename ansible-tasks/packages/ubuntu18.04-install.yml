@@ -22,6 +22,7 @@
     - iotop
     - insomnia
     - inxi
+    - jnettop
     - logstalgia
     - ltrace
     - maven
@@ -29,7 +30,7 @@
     - mc
     - mutt
     - msmtp
-    - jnettop
+    - phantomjs
     - qtbase5-dev
     - rednotebook
     - simplescreenrecorder

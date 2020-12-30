@@ -3,3 +3,4 @@
   tasks:
   - include: ansible-tasks/packages/common-install.yml
   - include: ansible-tasks/docker/ubuntu18.04-install.yml
+  - include: ansible-tasks/yarn/ubuntu18.04-install-yarn.yml

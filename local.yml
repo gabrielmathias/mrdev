@@ -1,6 +1,4 @@
 - hosts: localhost
   become: true
   tasks:
-  - include: ansible-playbooks/docker_ubuntu18.04/playbook.yml
-    vars_files:
-    - vars/default.yml
+  - include: ansible-tasks/docker_ubuntu18.04/task.yml

@@ -1,7 +1,7 @@
 #################################################
 # DO Community Playbooks: Docker
 #################################################
-- hosts: all
+- hosts: localhost
   become: true
   vars_files:
     - vars/default.yml

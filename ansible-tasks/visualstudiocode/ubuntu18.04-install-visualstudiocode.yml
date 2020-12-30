@@ -1,11 +1,14 @@
-name: Install VS Code
-block:
+- name: Install VS Code
+  block:
+
   # Add Microsoft GPG key
   - apt_key:
       url: https://packages.microsoft.com/keys/microsoft.asc
+
   # Add VSCode APT repository
   - apt_repository:
       repo: deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main
+
   # Install VS Code
   - apt:
       name: '{{item}}'

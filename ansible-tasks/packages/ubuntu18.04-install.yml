@@ -13,6 +13,8 @@
     - curl
     - figlet
     - filezilla
+    - git
+    - git-flow
     - gource
     - gnupg-agent
     - htop

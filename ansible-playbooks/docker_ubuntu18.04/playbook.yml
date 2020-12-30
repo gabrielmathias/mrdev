@@ -1,7 +1,6 @@
 #################################################
 # DO Community Playbooks: Docker
 #################################################
----
 - hosts: all
   become: true
   vars_files:

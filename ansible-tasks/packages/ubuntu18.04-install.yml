@@ -34,7 +34,7 @@
     - strace
     - tilix
     - tmux
-    - v412loopback-dkms
+    - v4l2loopback-dkms
     - vlc
     - wget
     - xrdp

@@ -1,5 +1,5 @@
 - name: Adjusting kernel parameters
-block:
+  block:
   # Increase max_user_watches for IntelliJ Idea
   - sysctl:
       name: fs.inotify.max_user_watches

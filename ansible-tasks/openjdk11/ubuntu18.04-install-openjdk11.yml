@@ -4,17 +4,8 @@
     repo: ppa:linuxuprising/java
     state: present
 
-
-- name: Install common packages
-  apt: name={{item}}
-  install_recommends: true
-  loop:
-    - asciinema
-
 - name: Install OpenJDK11
   apt: 
-    name: "{{ item }}"
-    install_recommends: true
-    with_items:
-      - oracle-java11-installer
+    pkg:
+    - oracle-java11-installer
 

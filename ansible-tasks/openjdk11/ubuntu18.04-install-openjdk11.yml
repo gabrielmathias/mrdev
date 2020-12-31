@@ -4,6 +4,13 @@
     repo: ppa:linuxuprising/java
     state: present
 
+
+- name: Install common packages
+  apt: name={{item}}
+  install_recommends: true
+  with_items:
+    - asciinema
+
 - name: Install OpenJDK11
   apt: 
     name: "{{ item }}"

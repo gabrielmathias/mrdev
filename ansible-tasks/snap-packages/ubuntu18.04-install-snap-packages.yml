@@ -1,4 +1,3 @@
----
 - name: Install snap packages
   snap: name={{item}}
   with_items:

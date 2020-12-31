@@ -8,6 +8,7 @@
       - notion-snap
       - osddm
       - postman
+      - taskline
 
 - name: Install snap packages in classic
   community.general.snap:

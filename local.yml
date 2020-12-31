@@ -1,4 +1,6 @@
 - hosts: localhost
+  roles:
+    - drew-kun.homebrew
   become: true
   tasks:
 #   - include: ansible-tasks/kernel/ubuntu18.04-tunning.yml

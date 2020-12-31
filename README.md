@@ -15,6 +15,8 @@ Requirements
 
 5) Install some collection: ansible-galaxy collection install community.general
 
+6) : ansible-galaxy install drew-kun.nerdfonts
+
 
 # MrDev installing and running
 

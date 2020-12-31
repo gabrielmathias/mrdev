@@ -13,6 +13,8 @@ Requirements
 
 4) Install ansible: sudo apt-get install ansible
 
+5) Install some collection: ansible-galaxy collection install community.general
+
 
 # MrDev installing and running
 

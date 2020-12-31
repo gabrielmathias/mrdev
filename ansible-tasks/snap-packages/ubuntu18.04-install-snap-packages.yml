@@ -3,3 +3,12 @@
   community.general.snap:
     name:
       - barrier
+      - dbeaver-ce
+      - osddm
+      - postman
+
+- name: Install snap packages in classic
+  community.general.snap:
+    name:
+      - android-studio 
+  classic: yes

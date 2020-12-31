@@ -5,6 +5,7 @@
       - arduino
       - barrier
       - dbeaver-ce
+      - gaucho
       - notion-snap
       - osddm
       - postman

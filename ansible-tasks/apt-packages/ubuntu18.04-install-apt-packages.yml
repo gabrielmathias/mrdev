@@ -1,8 +1,8 @@
 ---
 - name: Install common packages 
-  apt: name={{item}}
-  install_recommends: true
-  with_items:
+  apt:
+    install_recommends: true
+    pkg:
     - asciinema
     - build-essential
     - ca-certificates

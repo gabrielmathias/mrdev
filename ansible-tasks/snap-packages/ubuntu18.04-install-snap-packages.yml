@@ -12,4 +12,5 @@
   community.general.snap:
     name:
       - android-studio 
+      - espanso
     classic: yes

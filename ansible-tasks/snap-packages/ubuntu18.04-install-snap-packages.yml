@@ -4,7 +4,6 @@
     name:
       - arduino
       - barrier
-      - datagrip
       - dbeaver-ce
       - imaginary-teleprompter
       - gaucho
@@ -17,6 +16,7 @@
   community.general.snap:
     name:
       - android-studio 
+      - datagrip
       - espanso
 #      - node
     classic: yes

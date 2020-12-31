@@ -4,7 +4,6 @@
   install_recommends: true
   with_items:
     - asciinema
-    - barrier
     - build-essential
     - ca-certificates
     - ca-certificates-java

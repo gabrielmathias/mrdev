@@ -1,11 +1,12 @@
 ---
 - name: Install OpenJDK11 repository
-  block:
-    apt_repository:
+  apt_repository:
     repo: ppa:linuxuprising/java
     state: present
 
-    apt: name={{item}}
+- name: Install OpenJDK11
+  apt: 
+    name: "{{item}}"
     install_recommends: true
     loop:
       - oracle-java11-installer

@@ -8,6 +8,6 @@
   apt: 
     name: "{{item}}"
     install_recommends: true
-    loop:
+    with_items:
       - oracle-java11-installer
 

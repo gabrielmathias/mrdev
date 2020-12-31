@@ -2,8 +2,8 @@
   become: true
   tasks:
 #   - include: ansible-tasks/kernel/ubuntu18.04-tunning.yml
-#  - include: ansible-tasks/apt-packages/ubuntu18.04-install-apt-packages.yml
-  - include: ansible-tasks/snap-packages/ubuntu18.04-install-snap-packages.yml
+  - include: ansible-tasks/apt-packages/ubuntu18.04-install-apt-packages.yml
+#  - include: ansible-tasks/snap-packages/ubuntu18.04-install-snap-packages.yml
 #  - include: ansible-tasks/docker/ubuntu18.04-install.yml
 #  - include: ansible-tasks/yarn/ubuntu18.04-install-yarn.yml
 #  - include: ansible-tasks/visualstudiocode/ubuntu18.04-install-visualstudiocode.yml

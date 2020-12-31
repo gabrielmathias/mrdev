@@ -11,4 +11,4 @@
   community.general.snap:
     name:
       - android-studio 
-  classic: yes
+    classic: yes

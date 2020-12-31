@@ -6,7 +6,7 @@
 
 - name: Install OpenJDK11
   apt: 
-    name: "{{item}}"
+    name: "{{ item }}"
     install_recommends: true
     with_items:
       - oracle-java11-installer

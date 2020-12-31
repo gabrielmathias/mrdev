@@ -2,6 +2,7 @@
 - name: Install snap packages
   community.general.snap:
     name:
+      - arduino
       - barrier
       - dbeaver-ce
       - osddm

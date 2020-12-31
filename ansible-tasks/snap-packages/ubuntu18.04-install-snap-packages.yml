@@ -4,7 +4,9 @@
     name:
       - arduino
       - barrier
+      - datagrip
       - dbeaver-ce
+      - imaginary-teleprompter
       - gaucho
       - osddm
       - pomotroid
@@ -16,4 +18,5 @@
     name:
       - android-studio 
       - espanso
+#      - node
     classic: yes

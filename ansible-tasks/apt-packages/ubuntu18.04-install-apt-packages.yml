@@ -14,12 +14,14 @@
     - curl
     - figlet
     - filezilla
+    - gimp
     - git
     - git-flow
     - gource
     - gnupg-agent
     - htop
     - iotop
+    - inkscape
     - insomnia
     - inxi
     - jnettop
@@ -27,17 +29,22 @@
     - ltrace
     - maven
     - meld
+    - mercurial
     - mc
     - mutt
     - msmtp
+    - pandoc
     - qtbase5-dev
+    - rdesktop
     - rednotebook
     - simplescreenrecorder
     - software-properties-common
     - strace
+    - sysstat
     - tilix
     - tmux
     - v4l2loopback-dkms
+    - vim
     - vlc
     - wget
     - xclip

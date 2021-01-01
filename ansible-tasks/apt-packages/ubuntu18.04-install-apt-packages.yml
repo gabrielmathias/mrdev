@@ -35,6 +35,7 @@
     - mutt
     - msmtp
     - pandoc
+    - python-psutil
     - qtbase5-dev
     - rdesktop
     - rednotebook

@@ -1,0 +1,6 @@
+- name: Copy wallpaper file
+  copy: src=files/mrdev-wallpaper.jpg dest=/home/{{ lookup('env', 'USER') }}/.mrdev-wallpaper.jpg owner={{ lookup('env', 'USER') }} group={{ lookup('env', 'USER') }} mode=600
+
+- name: Set GNOME Wallpaper
+  become_user: {{ lookup('env', 'USER') }}
+  dconf: key="/org/gnome/desktop/background/picture-uri" value="'file:///home/{{ lookup('env', 'USER') }}/.mrdev-wallpaper.jpg'"

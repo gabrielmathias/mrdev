@@ -1,4 +1,5 @@
 - hosts: localhost
+  become: true
   roles:
   - firefox
 
@@ -12,7 +13,7 @@
     firefox_profiles:
       default:
         extensions:
-          - ublock-origin
+          - gnome-shell-integration
 
   pre_tasks:
   - name: Verify Ansible meets MrDev minimal requirements
@@ -21,7 +22,6 @@
       msg: >
           "You must update Ansible to at least 2.9 to use this version of MrDev."
 
-  become: true
 
   tasks:
    - include: ansible-tasks/kernel/ubuntu18.04-tunning.yml

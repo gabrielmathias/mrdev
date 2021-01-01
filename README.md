@@ -26,7 +26,7 @@ $>  ansible-pull -K -U https://github.com/gabrielmathias/mrdev.git
 ## Recomendações de mais ferramentas:
 
 ### Para o Gnome  
-[Caffeine](https://extensions.gnome.org/extension/517/caffeine/) 
+[Caffeine](https://extensions.gnome.org/extension/517/caffeine/)   
 [Docker Integration - veja containers direto da barra do gnome](https://extensions.gnome.org/extension/1065/docker-status/)   
 [ScreenShot Tool - bom capturador de telas](https://extensions.gnome.org/extension/1112/screenshot-tool/)   
 [Emoji Selector](https://extensions.gnome.org/extension/1162/emoji-selector/)   

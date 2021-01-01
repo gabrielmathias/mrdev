@@ -25,6 +25,6 @@ $>  ansible-pull -K -U https://github.com/gabrielmathias/mrdev.git
 
 ## Recomendações de mais ferramentas:
 
-### Para o Firefox
-
+### Para o Gnome
+[https://extensions.gnome.org/extension/1065/docker-status/](Docker Integration - veja containers direto da barra do gnome)
 [https://extensions.gnome.org/extension/1112/screenshot-tool/](ScreenShot Tool - bom capturador de telas)

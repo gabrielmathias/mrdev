@@ -7,7 +7,7 @@
           "You must update Ansible to at least 2.9 to use this version of MrDev."
 
   vars:
-  username: "{{ lookup('env', 'USER') }}"
+    username: "{{ lookup('env', 'USER') }}"
 
   become: true
   tasks:

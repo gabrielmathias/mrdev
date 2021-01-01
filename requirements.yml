@@ -1,0 +1,8 @@
+roles:
+  - name: basvandenbrink.firefox
+  - name: kami911.java_open_jdk11
+  - name: basvandenbrink.firefox
+collections:
+  - name: community.general
+  - name: moreati.psutil
+

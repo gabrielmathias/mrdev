@@ -21,9 +21,8 @@ install_ubuntu18_ppa:
 	sudo apt-get install ansible
 
 install_community:
-	ansible-galaxy collection install community.general
-	ansible-galaxy collection install moreati.psutil
-	ansible-galaxy install kami911.java_open_jdk11
+	ansible-galaxy role install -r requirements.yml
+	ansible-galaxy collection install -r requirements.yml
 
 run:
 	ansible-pull -K -U https://github.com/gabrielmathias/mrdev.git

@@ -1,15 +1,7 @@
 - hosts: localhost
 
   collections:
-  - alzadude.firefox
-
-  vars:
-    firefox:
-      addons:
-        - url: https://addons.mozilla.org/pt-BR/firefox/addon/wappalyzer
-
-  roles:
-  - alzadude.firefox
+  - basvandenbrink.firefox
 
   pre_tasks:
   - name: Verify Ansible meets MrDev minimal requirements

@@ -3,8 +3,10 @@
   collections:
   - basvandenbrink.firefox
 
-
   vars:
+    username: "{{ lookup('env', 'USER') }}"
+    home: "{{ lookup('env', 'HOME') }}"
+
     firefox_profiles:
       default:
         extensions:
@@ -17,11 +19,11 @@
       msg: >
           "You must update Ansible to at least 2.9 to use this version of MrDev."
 
-  vars:
-    username: "{{ lookup('env', 'USER') }}"
-    home: "{{ lookup('env', 'HOME') }}"
-
   become: true
+
+  roles:
+   - firefox
+
   tasks:
    - include: ansible-tasks/kernel/ubuntu18.04-tunning.yml
    - include: ansible-tasks/apt-packages/ubuntu18.04-install-apt-packages.yml

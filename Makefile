@@ -22,6 +22,7 @@ install_ubuntu18_ppa:
 
 install_community:
 	ansible-galaxy collection install community.general
+	ansible-galaxy collection install moreati.psutil
 
 run:
 	ansible-pull -K -U https://github.com/gabrielmathias/mrdev.git

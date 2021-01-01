@@ -1,4 +1,6 @@
 - hosts: localhost
+  collections:
+  - alzadude.firefox
 
   pre_tasks:
   - name: Verify Ansible meets MrDev minimal requirements

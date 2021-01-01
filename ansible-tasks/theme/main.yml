@@ -2,5 +2,5 @@
   copy: src=files/mrdev-wallpaper.jpg dest=/home/{{ username }}/.mrdev-wallpaper.jpg owner={{ username }} group={{ username }} mode=600
 
 - name: Set GNOME Wallpaper
-  become_user: {{ username }}
+  become_user: "{{ username }}"
   dconf: key="/org/gnome/desktop/background/picture-uri" value="'file:///home/{{ username }}/.mrdev-wallpaper.jpg'"

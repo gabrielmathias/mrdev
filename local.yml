@@ -1,6 +1,6 @@
 - hosts: localhost
   roles:
-    - java-open-jdk11
+    - java-openjdk11
 
   pre_tasks:
   - name: Verify Ansible meets MrDev minimal requirements

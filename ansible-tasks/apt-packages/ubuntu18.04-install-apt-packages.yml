@@ -34,6 +34,7 @@
     - mutt
     - msmtp
     - pandoc
+    - python3-psutil
     - python-psutil
     - qtbase5-dev
     - rdesktop

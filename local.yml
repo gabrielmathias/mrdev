@@ -13,7 +13,7 @@
     firefox_profiles:
       default:
         extensions:
-          - gnome-shell-integration
+          - decentraleyes
 
   pre_tasks:
   - name: Verify Ansible meets MrDev minimal requirements

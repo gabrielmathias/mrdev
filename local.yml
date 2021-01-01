@@ -3,6 +3,13 @@
   collections:
   - basvandenbrink.firefox
 
+
+  vars:
+    firefox_profiles:
+      default:
+        extensions:
+          - ublock-origin
+
   pre_tasks:
   - name: Verify Ansible meets MrDev minimal requirements
     assert:

@@ -23,6 +23,7 @@ install_ubuntu18_ppa:
 install_community:
 	ansible-galaxy collection install community.general
 	ansible-galaxy collection install moreati.psutil
+	ansible-galaxy install kami911.java_oracle_jdk11
 
 run:
 	ansible-pull -K -U https://github.com/gabrielmathias/mrdev.git

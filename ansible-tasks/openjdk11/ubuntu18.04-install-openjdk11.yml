@@ -7,5 +7,5 @@
 - name: Install OpenJDK11
   apt: 
     pkg:
-    - oracle-java11-installer
+    - oracle-java11-installer-local
 

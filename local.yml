@@ -8,6 +8,7 @@
 
   vars:
     username: "{{ lookup('env', 'USER') }}"
+    home: "{{ lookup('env', 'HOME') }}"
 
   become: true
   tasks:

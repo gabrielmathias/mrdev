@@ -6,6 +6,7 @@
       - barrier
       - dbeaver-ce
       - imaginary-teleprompter
+      - insomnia
       - osddm
       - pomotroid
       - postman

@@ -1,7 +1,6 @@
 - hosts: localhost
   become: true
   roles:
-  - firefox
   - yarn
   - docker
 
@@ -12,11 +11,6 @@
     username: "{{ lookup('env', 'USER') }}"
     home: "{{ lookup('env', 'HOME') }}"
     wallpapers: "{{ lookup('env', 'HOME') }}/Wallpapers"
-
-    firefox_profiles:
-      default:
-        extensions:
-          - decentraleyes
 
   pre_tasks:
   - name: Verify Ansible meets MrDev minimal requirements

@@ -2,6 +2,7 @@
   become: true
   roles:
   - firefox
+  - docker
 
   collections:
   - basvandenbrink.firefox

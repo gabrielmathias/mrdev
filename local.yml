@@ -4,7 +4,9 @@
   - yarn
   - docker
   - theme
-  - geerlingguy.homebrew
+  - gantsign.oh-my-zsh
+    users: 
+      - username: gabriel
 
   vars:
     username: "{{ lookup('env', 'USER') }}"

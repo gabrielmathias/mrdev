@@ -2,7 +2,7 @@ roles:
   - name: basvandenbrink.firefox
   - name: kami911.java_open_jdk11
   - name: basvandenbrink.firefox
-  - name: geerlingguy.homebrew
+  - name: gantsign.oh-my-zsh
 collections:
   - name: community.general
   - name: moreati.psutil

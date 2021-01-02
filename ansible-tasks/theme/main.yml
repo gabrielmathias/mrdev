@@ -11,4 +11,4 @@
 
 - name: Set shortcuts
   become_user: "{{ username }}"
-  dconf: key="/org/gnome/desktop/wm/keybindings/switch-to-workspace-5 value="['<Primary>p']"
+  dconf: key="/org/gnome/desktop/wm/keybindings/switch-to-workspace-5 value="'<Primary>p'"

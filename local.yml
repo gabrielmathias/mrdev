@@ -2,6 +2,7 @@
   become: true
   roles:
   - firefox
+  - yarn
   - docker
 
   collections:
@@ -31,6 +32,4 @@
    - include: ansible-tasks/theme/main.yml
 #   - include: ansible-tasks/snap-packages/ubuntu18.04-install-snap-packages.yml
 #   - include: ansible-tasks/openjdk11/ubuntu18.04-install-openjdk11.yml
-#   - include: ansible-tasks/docker/ubuntu18.04-install.yml
-#   - include: ansible-tasks/yarn/ubuntu18.04-install-yarn.yml
 #   - include: ansible-tasks/visualstudiocode/ubuntu18.04-install-visualstudiocode.yml

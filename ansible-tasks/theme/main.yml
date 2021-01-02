@@ -1,13 +1,10 @@
-- name: Copy wallpaper file
-  copy: src=files/mrdev-wallpaper.jpg dest=/{{ home }}/.mrdev-wallpaper.jpg owner={{ username }} mode=600
-
 - name: Set GNOME Wallpaper
   become_user: "{{ username }}"
-  dconf: key="/org/gnome/desktop/background/picture-uri" value="'file:///{{ home }}/.mrdev-wallpaper.jpg'"
+  dconf: key="/org/gnome/desktop/background/picture-uri" value="'file://{{ home }}/Wallpapers/wallpaper.jpg'"
 
 - name: Set lock screen background
   become_user: "{{ username }}"
-  dconf: key="/org/gnome/desktop/screensaver/picture-uri" value="'file:///{{ home }}/Wallpapers/lockscreen.jpg'"
+  dconf: key="/org/gnome/desktop/screensaver/picture-uri" value="'file://{{ home }}/Wallpapers/lockscreen.jpg'"
 
 - name: Set shortcuts
   become_user: "{{ username }}"

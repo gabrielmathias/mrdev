@@ -9,6 +9,7 @@
   vars:
     username: "{{ lookup('env', 'USER') }}"
     home: "{{ lookup('env', 'HOME') }}"
+    wallpapers: "{{ lookup('env', 'HOME') }}/Wallpapers"
 
     firefox_profiles:
       default:

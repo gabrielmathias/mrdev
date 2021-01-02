@@ -32,5 +32,7 @@ $>  ansible-pull -K -U https://github.com/gabrielmathias/mrdev.git
 [ScreenShot Tool - bom capturador de telas](https://extensions.gnome.org/extension/1112/screenshot-tool/)   
 [Emoji Selector](https://extensions.gnome.org/extension/1162/emoji-selector/)   
 [Lan IP Address](https://extensions.gnome.org/extension/1762/lan-ip-address/)   
+[CUstomized Workspaces](https://extensions.gnome.org/extension/1583/worksets/)    
 [Wallpaper](https://extensions.gnome.org/extension/1200/walkpaper/)   
+[Transparency](https://extensions.gnome.org/extension/1011/dynamic-panel-transparency/)   
 

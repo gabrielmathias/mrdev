@@ -6,6 +6,11 @@
   become_user: "{{ username }}"
   dconf: key="/org/gnome/desktop/screensaver/picture-uri" value="'file://{{ home }}/Wallpapers/lockscreen.jpg'"
 
+- name: Set wallpapers
+  become_user: "{{ username }}"
+  dconf: key="/org/gnome/shell/extensions/walkpaper/workspace-wallpapers" value="['file://{{ walpapers }}/workspace1.jpg', 'file://{{ wallpapers }}/workspace2.jpg', 'file://{{ walpapers }}/workspace3.jpg']"
+
+
 - name: Set shortcuts
   become_user: "{{ username }}"
   dconf: key="/org/gnome/desktop/wm/keybindings/switch-to-workspace-1" value="['<Super>c']"

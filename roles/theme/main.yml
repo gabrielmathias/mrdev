@@ -1,0 +1,3 @@
+- name: Set Mouse Natural Scrolling
+  become_user: "{{ username }}"
+  dconf: key="/org/gnome/desktop/peripherals/mouse/natural-scroll" value="'true'"

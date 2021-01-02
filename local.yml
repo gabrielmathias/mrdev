@@ -3,9 +3,7 @@
   roles:
   - yarn
   - docker
-
-  collections:
-  - basvandenbrink.firefox
+  - theme
 
   vars:
     username: "{{ lookup('env', 'USER') }}"

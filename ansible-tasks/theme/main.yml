@@ -8,7 +8,7 @@
 
 - name: Set wallpapers
   become_user: "{{ username }}"
-  dconf: key="/org/gnome/shell/extensions/walkpaper/workspace-wallpapers" value="['file://{{ walpapers }}/workspace1.jpg', 'file://{{ wallpapers }}/workspace2.jpg', 'file://{{ walpapers }}/workspace3.jpg']"
+  dconf: key="/org/gnome/shell/extensions/walkpaper/workspace-wallpapers" value="['file://{{ wallpapers }}/workspace1.jpg', 'file://{{ wallpapers }}/workspace2.jpg', 'file://{{ wallpapers }}/workspace3.jpg']"
 
 
 - name: Set shortcuts

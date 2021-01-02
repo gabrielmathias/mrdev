@@ -4,6 +4,7 @@
   - yarn
   - docker
   - theme
+  - geerlingguy.homebrew
 
   vars:
     username: "{{ lookup('env', 'USER') }}"

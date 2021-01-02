@@ -5,7 +5,7 @@ commit:
 	git commit -m "wip"
 	http_proxy="" git push
 
-install20: install_ubuntu20_ansible install_community
+install20: install_ubuntu20_ansible galaxy
 
 install_ubuntu20_ansible:
 	sudo apt-get update; sudo apt-get install ansible
@@ -20,7 +20,7 @@ install_ubuntu18_ppa:
 	sudo apt-get update
 	sudo apt-get install ansible
 
-install_community:
+galaxy:
 	ansible-galaxy role install -r requirements.yml
 	ansible-galaxy collection install -r requirements.yml
 

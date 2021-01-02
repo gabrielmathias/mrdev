@@ -2,6 +2,7 @@ roles:
   - name: basvandenbrink.firefox
   - name: kami911.java_open_jdk11
   - name: basvandenbrink.firefox
+  - name: geerlingguy.homebrew
 collections:
   - name: community.general
   - name: moreati.psutil

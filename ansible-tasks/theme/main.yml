@@ -9,6 +9,6 @@
   become_user: "{{ username }}"
   dconf: key="/org/gnome/desktop/screensaver/picture-uri" value="'file:///{{ home }}/Wallpapers/lockscreen.jpg'"
 
-#- name: Set shortcuts
-#  become_user: "{{ username }}"
-#dconf: key="/org/gnome/desktop/wm/keybindings/switch-to-workspace-5 value="'<Primary>p'"
+- name: Set shortcuts
+  become_user: "{{ username }}"
+  dconf: key="/org/gnome/desktop/wm/keybindings/switch-to-workspace-5" value="['<Primary>p']"

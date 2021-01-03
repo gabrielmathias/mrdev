@@ -17,4 +17,20 @@
     group: ambiente
     mode: 0755
 
+- name: Downloads ficam em /home/ambiente/install
+  file:
+    path: /home/ambiente/install
+    state: directory
+    owner: '{{ username }}'
+    group: ambiente
+    mode: 0755
+
+- name: Programas instalados em /home/ambiente/bin
+  file:
+    path: /home/ambiente/bin
+    state: directory
+    owner: '{{ username }}'
+    group: ambiente
+    mode: 0755
+
 - include: springtoolsuite.yml

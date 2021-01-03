@@ -1,5 +1,9 @@
 # Mr. Dev
-Conjunto de rules e tasks do Ansible para preparação de uma estação de desenvolvimento para as minhas necessidades.
+
+Ambiente de desenvolvimento preparado para as minhas necessidades e de alguns colegas.   
+
+Instalável pelo Ansible.   
+
 Outras configurações e aplicativos que ainda não estão automatizados estão em uma sessão no final da página.
 
 Depois de instalado a tecla F2 abre esta página.
@@ -10,7 +14,7 @@ Utilizar um workspace para cada tipo de atividade.
 
 
 ## Workspace C 
-&lt;Super>+C - Troca para o workspace Inicial de navegação e outras atividades    
+&lt;Super&gt;+C - Troca para o workspace Inicial de navegação e outras atividades    
 Aplicativos sugeridos:   
 - Firefox   
 - Tilix
@@ -41,30 +45,35 @@ Aplicativos sugeridos:
 # Exemplo
 
 ![Tela](files/tela.png?raw=true "Tela")
-Requirements
 
-# Ansible 
+# Pré-requisitos
 
-1) First remove installed version of ansible using sudo apt-get remove --purge ansible
+## Sistema Operacional
 
-2) Now add the correct ppa using sudo apt-add-repository ppa:ansible/ansible
+Hoje apenas ubuntu 18.04 e 20.04.
 
-3) Update the package list: sudo apt-get update
+## Ansible 
 
-4) Install ansible: sudo apt-get install ansible
+Ansible versão 2.9 ou superior.   
 
-5) Install some collection: ansible-galaxy collection install community.general
 
-6) : ansible-galaxy install drew-kun.nerdfonts
+# Ansible instalando/atualizando
 
-# Instação
+$&gt; sudo apt-get remove --purge ansible
 
-[![asciicast](https://asciinema.org/a/170142.png)](https://asciinema.org/a/170142)
+$&gt; sudo apt-add-repository ppa:ansible/ansible
 
-# MrDev installing and running
+$&gt; sudo apt-get update
 
-$>  ansible-pull -K -U https://github.com/gabrielmathias/mrdev.git
+$&gt; sudo apt-get install ansible
 
+$&gt; ansible-galaxy collection install community.general
+
+$&gt; ansible-galaxy install drew-kun.nerdfonts
+
+# Instalando e utilizando
+
+$&gt;  ansible-pull -K -U https://github.com/gabrielmathias/mrdev.git
 
 ## Recomendações de mais ferramentas:
 

@@ -15,4 +15,4 @@
     state: directory
     owner: '{{ username }}'
     group: ambiente
-    mode: 775
+    mode: 0775

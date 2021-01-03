@@ -1,0 +1,3 @@
+- name: Aplicativos e Configurações para usar no INEP
+
+- include: snx.yml

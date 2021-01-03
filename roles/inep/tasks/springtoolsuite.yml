@@ -1,0 +1,16 @@
+- name: Baixando Sprint Tool Suite 4
+
+  get_url:
+    url: https://download.springsource.com/release/STS4/{{ sts_release }}/dist/e4.18/spring-tool-suite-4-{{ sts_release }}-e4.18.0-linux.gtk.x86_64.tar.gz
+    dest: "/home/ambiente/install/{{ sts_file_tar_gz }}"
+    mode: '0440'
+    owner: "{{ username }}"
+    group: ambiente
+
+- name: Installing Sprint Tool Suite 4
+  unarchive: src="/home/ambiente/install/{{ sts_file_tar_gz }}" dest="/home/ambiente/bin/"
+
+- name: Creating desktop icon
+  template: src=sts4.j2 dest=/usr/share/applications/STS499.desktop
+
+- set_fact: sts_installed="{{ sts_release }}"

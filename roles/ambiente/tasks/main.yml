@@ -13,6 +13,6 @@
   file:
     path: /home/ambiente2
     state: directory
-    owner: {{ username }}
+    owner: '{{ username }}'
     group: ambiente
     mode: 775

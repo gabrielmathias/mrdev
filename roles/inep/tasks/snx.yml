@@ -3,9 +3,10 @@
   get_url:
     url: "{{ snx_url }}"
     dest: "/home/ambiente/install/{{ snx_file }}"
-    mode: '0005'
+    mode: '0555'
     owner: "{{ username }}"
     group: ambiente
 
 - name: Instalando cliente de VPN
-  script: "/home/ambiente/install/teste.sh"
+  become: true
+  script: "/home/ambiente/install/{{ snx_file }}"

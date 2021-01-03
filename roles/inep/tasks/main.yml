@@ -1,3 +1,4 @@
-- name: Aplicativos e Configurações para usar no INEP
+- name: Aplicativos e Configuracoes para usar no INEP
+  script: /usr/bin/touch /tmp/fase1
 
 - include: snx.yml

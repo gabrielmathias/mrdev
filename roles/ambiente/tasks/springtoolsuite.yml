@@ -8,7 +8,7 @@
     group: ambiente
 
 - name: Installing Sprint Tool Suite 4
-  unarchive: src="/home/ambiente/install/{{ sts_file_tar_gz }} dest="/home/ambiente/bin/"
+  unarchive: src="/home/ambiente/install/{{ sts_file_tar_gz }}" dest="/home/ambiente/bin/"
 
 - name: Creating desktop icon
   template: src=sts4.j2 dest=/usr/share/applications/STS499.desktop

@@ -1,2 +1,3 @@
-snx_file=snx_install.sh
-snx_url=https://vpnportal.aktifbank.com.tr/SNX/INSTALL/{{ snx_file }}
+---
+snx_file: "snx_install.sh"
+snx_url: "https://vpnportal.aktifbank.com.tr/SNX/INSTALL/{{ snx_file }}"

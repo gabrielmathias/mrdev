@@ -5,6 +5,7 @@
   - yarn
   - docker
   - theme
+  - inep
 
   vars:
     username: "{{ lookup('env', 'USER') }}"

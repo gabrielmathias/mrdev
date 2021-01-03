@@ -33,6 +33,10 @@ Aplicativos sugeridos:
 ## Workspace P 
 &lt;Super&gt;+P - Troca para o workspace para conteúdo pessoal   
 
+
+## LockScreen L
+&lt;Super&gt;+L - Bloqueia a sessão.
+
 Requirements
 
 # Ansible 

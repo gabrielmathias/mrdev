@@ -37,6 +37,10 @@ Aplicativos sugeridos:
 ## LockScreen L
 &lt;Super&gt;+L - Bloqueia a sessão.
 
+
+# Exemplo
+
+![Tela](files/tela.png?raw=true "Tela")
 Requirements
 
 # Ansible 

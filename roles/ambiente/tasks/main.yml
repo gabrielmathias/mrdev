@@ -16,3 +16,5 @@
     owner: '{{ username }}'
     group: ambiente
     mode: 0755
+
+- include: springtoolsuite.yml

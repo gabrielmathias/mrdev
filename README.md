@@ -2,34 +2,36 @@
 Conjunto de rules e tasks do Ansible para preparação de uma estação de desenvolvimento para as minhas necessidades.
 Outras configurações e aplicativos que ainda não estão automatizados estão em uma sessão no final da página.
 
+Depois de instalado a tecla F2 abre esta página.
+
 # Como utilizar (após instalado)
 
 Utilizar um workspace para cada tipo de atividade.  
 
 
 ## Workspace C 
-<Super>+C - Troca para o workspace Inicial de navegação e outras atividades    
+&lt;Super>+C - Troca para o workspace Inicial de navegação e outras atividades    
 Aplicativos sugeridos:   
 - Firefox   
 - Tilix
 
 ## Workspace J 
-<Super>+J - Troca para o workspace para Java/Backend   
+&lt;Super&gt;+J - Troca para o workspace para Java/Backend   
 Aplicativos sugeridos:
 - Spring Tools Suite   
 
 ## Workspace A 
-<Super>+A - Troca para o workspace para Angular/Frontend    
+&lt;Super&gt;+A - Troca para o workspace para Angular/Frontend    
 Aplicativos sugeridos:
 - Visual Studio Code    
 
 ## Workspace O 
-<Super>+O - Troca para o workspace para Oracle/Databases   
+&lt;Super&gt;+O - Troca para o workspace para Oracle/Databases   
 Aplicativos sugeridos:
 - DBeaver  
 
 ## Workspace P 
-<Super>+P - Troca para o workspace para conteúdo pessoal   
+&lt;Super&gt;+P - Troca para o workspace para conteúdo pessoal   
 
 Requirements
 

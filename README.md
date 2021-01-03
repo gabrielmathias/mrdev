@@ -25,6 +25,9 @@ $>  ansible-pull -K -U https://github.com/gabrielmathias/mrdev.git
 
 ## Recomendações de mais ferramentas:
 
+### Shell - Zsh + PowerLevel10K
+[Tutorial de instalação Zsh + PowerLevel10k](https://dev.to/web3coach/best-terminal-setup-terminator-zsh-powerlevel10k-7pl)
+
 ### Para o Gnome  
 [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)  
 [Vitals+](https://extensions.gnome.org/extension/1460/vitals/)     

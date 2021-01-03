@@ -1,6 +1,7 @@
 - hosts: localhost
   become: true
   roles:
+  - ambiente
   - yarn
   - docker
   - theme

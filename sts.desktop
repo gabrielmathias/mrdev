@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Sprint Tool Suite
+Comment=Spring Tool Suite
+GenericName=STS
+Exec=/home/ambiente/sts-4.8.1.RELEASE/SpringToolSuite4 &
+Icon=/home/ambiente/sts-4.8.1.RELEASE/icon.xpm
+Type=Application
+Categories=Developer;Java;

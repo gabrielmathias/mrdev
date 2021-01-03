@@ -1,6 +1,6 @@
 # Mr. Dev
 
-Ambiente de desenvolvimento preparado para as minhas necessidades e de alguns colegas.   
+Ambiente de desenvolvimento com aplicativos e configurações preparado para as minhas necessidades e de alguns colegas.   
 
 Instalável pelo Ansible.   
 

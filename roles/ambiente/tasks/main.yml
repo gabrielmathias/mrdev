@@ -11,8 +11,8 @@
 
 - name: Ambiente fica em /home/ambiente 
   file:
-    path: /home/ambiente2
+    path: /home/ambiente
     state: directory
     owner: '{{ username }}'
     group: ambiente
-    mode: 0775
+    mode: 0755

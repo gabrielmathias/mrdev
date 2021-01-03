@@ -5,13 +5,13 @@
 
 - name: terminal shortcut name
   dconf:
-    key: "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/name"
+    key: "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom10/name"
     value: "'MrDevSite'"
 - name: terminal shortcut command
   dconf:
-    key: "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/command"
+    key: "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom10/command"
     value: "'firefox https://github.com/gabrielmathias/mrdev#readme'"
 - name: terminal shortcut binding
   dconf:
-    key: "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/binding"
+    key: "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom10/binding"
     value: "'F3'"

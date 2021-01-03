@@ -1,2 +1,3 @@
 ---
 sts_release: "4.9.0.RELEASE"
+sts_file_tar_gz: "spring-tool-suite-{{ sts_release }}.tar.gz"

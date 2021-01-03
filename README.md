@@ -57,6 +57,9 @@ Requirements
 
 6) : ansible-galaxy install drew-kun.nerdfonts
 
+# Instação
+
+[![asciicast](https://asciinema.org/a/170142.png)](https://asciinema.org/a/170142)
 
 # MrDev installing and running
 

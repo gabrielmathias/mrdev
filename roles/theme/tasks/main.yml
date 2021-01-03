@@ -6,17 +6,17 @@
 - name: terminal shortcut name
   become_user: "{{ username }}"
   dconf:
-    key: "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom10/name"
+    key: "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/name"
     value: "'MrDevSite'"
 
 - name: terminal shortcut command
   become_user: "{{ username }}"
   dconf:
-    key: "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom10/command"
+    key: "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/command"
     value: "'firefox https://github.com/gabrielmathias/mrdev#readme'"
 
 - name: terminal shortcut binding
   become_user: "{{ username }}"
   dconf:
-    key: "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom10/binding"
+    key: "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/binding"
     value: "'F3'"

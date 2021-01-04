@@ -1,15 +1,19 @@
-- name: Ensure group "somegroup" exists
+- include: kernel.yml
+- include: apt-packages.yml
+- include: snap-packages.yml
+
+- name: Garantindo que grupo "ambiente" existe
   group:
     name: ambiente
     state: present
 
-- name: Adding existing user '{{ username }}' to group ambiente
+- name: Garantindo que o usuário '{{ username }}' está no grupo ambiente
   user:
     name: '{{ username }}'
     groups: ambiente
     append: yes
 
-- name: Ambiente fica em /home/ambiente 
+- name: Garrantindo permissoes da pasta de ambiente /home/ambiente 
   file:
     path: /home/ambiente
     state: directory
@@ -34,3 +38,7 @@
     mode: 0755
 
 - include: springtoolsuite.yml
+
+- include: visualstudiocode.yml
+
+- include: gnome.yml

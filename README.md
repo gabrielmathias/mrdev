@@ -91,3 +91,10 @@ $&gt;  ansible-pull -K -U https://github.com/gabrielmathias/mrdev.git
 [Wallpaper](https://extensions.gnome.org/extension/1200/walkpaper/)   
 [Transparency](https://extensions.gnome.org/extension/1011/dynamic-panel-transparency/)   
 
+
+### Outras configurações
+
+Firefox "natural scroll":    
+Abra no firefox a url: about:config    
+Procure pela chave mousewheel.default.delta_multiplier_y
+Troque o valor para -100.

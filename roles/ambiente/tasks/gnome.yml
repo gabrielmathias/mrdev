@@ -1,0 +1,48 @@
+- name: Determinando GNOME Wallpaper
+  become_user: "{{ username }}"
+  dconf: key="/org/gnome/desktop/background/picture-uri" value="'file://{{ home }}/Wallpapers/wallpaper.jpg'"
+
+- name: Determinando os papeis de parede dos outros workspaces
+  become_user: "{{ username }}"
+  dconf: key="/org/gnome/shell/extensions/walkpaper/workspace-wallpapers" value="['file://{{ wallpapers }}/workspace1.jpg', 'file://{{ wallpapers }}/workspace2.jpg', 'file://{{ wallpapers }}/workspace3.jpg']"
+
+- name: Super+C atalho para workspace C - Área comun, Navegação, Terminal, etc.
+  become_user: "{{ username }}"
+  dconf: key="/org/gnome/desktop/wm/keybindings/switch-to-workspace-1" value="['<Super>c']"
+
+- name: Super+J atalho para workspace J - Java/Backends
+  become_user: "{{ username }}"
+  dconf: key="/org/gnome/desktop/wm/keybindings/switch-to-workspace-2" value="['<Super>j']"
+
+- name: Super+J atalho para workspace A - Angular/Frontends
+  become_user: "{{ username }}"
+  dconf: key="/org/gnome/desktop/wm/keybindings/switch-to-workspace-3" value="['<Super>a']"
+
+- name: Super+J atalho para workspace O - Oracle/Databases
+  become_user: "{{ username }}"
+  dconf: key="/org/gnome/desktop/wm/keybindings/switch-to-workspace-4" value="['<Super>o']"
+
+- name: Super+J atalho para workspace P - Particular
+  become_user: "{{ username }}"
+  dconf: key="/org/gnome/desktop/wm/keybindings/switch-to-workspace-5" value="['<Super>p']"
+- name: Natural Scrolling no Mouse
+  become_user: "{{ username }}"
+  dconf: key="/org/gnome/desktop/peripherals/mouse/natural-scroll" value="true"
+
+- name: Atalho F2 aponta para a página do MrDev - name
+  become_user: "{{ username }}"
+  dconf:
+    key: "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/name"
+    value: "'MrDevSite'"
+
+- name: Atalho F2 aponta para a página do MrDev - command
+  become_user: "{{ username }}"
+  dconf:
+    key: "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/command"
+    value: "'firefox https://github.com/gabrielmathias/mrdev#readme'"
+
+- name: Atalho F2 aponta para a página do MrDev - binding
+  become_user: "{{ username }}"
+  dconf:
+    key: "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/binding"
+    value: "'F3'"

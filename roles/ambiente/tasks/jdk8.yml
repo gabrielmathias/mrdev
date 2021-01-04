@@ -1,0 +1,21 @@
+---
+- name: Install Oracle Java 8 Repo Installer Repository
+  apt:
+    pkg:
+    - software-properties-common
+
+- name: Utilizando ppa:webupd8team/java
+  apt_repository:
+    repo: ppa:webupd8team/java
+
+- name: Aceitando licensa de uso do Java 8
+  debconf: name='oracle-java8-installer' question='shared/accepted-oracle-license-v1-1' value='true' vtype='select'
+
+- name: Instalando o JDK8
+  apt:
+    update_cache: yes
+    install_recommends: true
+    pkg:
+    - oracle-java8-installer
+    - ca-certificates
+    - oracle-java8-set-default

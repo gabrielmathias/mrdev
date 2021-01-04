@@ -11,9 +11,8 @@
 
   # Install VS Code
   - apt:
-      name: '{{item}}'
       update_cache: yes
-    with_items:
+      pkg:
       - code
       # Install xclip so that clipboard works inside VS Code
       - xclip

@@ -1,0 +1,12 @@
+- name: Tunning de Ambiente - Aumentando watches
+  sysctl:
+    name: fs.inotify.max_user_watches
+    value: 524288
+    state: present
+
+- name: Tunning de Ambiente - Reduzindo sappiness (diminuir frequencia o swap)
+  sysctl:
+    name: vm.swappiness
+    value: 10
+    state: present
+    reload: yes

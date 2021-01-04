@@ -1,8 +1,0 @@
-- hosts: localhost
-  become: true
-  tasks:
-  - name: Install htop
-    apt: name=htop
-  - name: Install wget
-    apt: name=wget
-  - include: docker_ubuntu18.04.yml

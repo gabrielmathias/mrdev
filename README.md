@@ -61,11 +61,15 @@ Ansible versão 2.9 ou superior.
 
 $&gt; sudo apt-get remove --purge ansible
 
+$&gt; sudo apt update -o Acquire::Check-Valid-Until=false -o Acquire::AllowInsecureRepositories=true -o Acquire::AllowDowngradeToInsecureRepositories=true
+
 $&gt; sudo apt-add-repository ppa:ansible/ansible
 
 $&gt; sudo apt-get update
 
 $&gt; sudo apt-get install ansible
+
+$&gt; sudo apt update -o Acquire::Check-Valid-Until=true -o Acquire::AllowInsecureRepositories=false -o Acquire::AllowDowngradeToInsecureRepositories=false
 
 $&gt; ansible-galaxy collection install community.general
 
@@ -98,3 +102,10 @@ Firefox "natural scroll":
 Abra no firefox a url: about:config    
 Procure pela chave mousewheel.default.delta_multiplier_y
 Troque o valor para -100.
+
+Firefox mostrar tabs em modo fullscreen
+
+Abra no firefox a url: about:config
+Procure pela chave browser.fullscreen.autohide
+Troque o valor para false
+

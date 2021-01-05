@@ -52,6 +52,10 @@ Aplicativos sugeridos:
 
 Hoje apenas ubuntu 18.04 e 20.04.
 
+## Git
+
+$gt; sudo apt-get install git
+
 ## Ansible 
 
 Ansible versão 2.9 ou superior.   
@@ -94,7 +98,7 @@ $&gt;  ansible-pull -K -U https://github.com/gabrielmathias/mrdev.git
 [CUstomized Workspaces](https://extensions.gnome.org/extension/1583/worksets/)    
 [Wallpaper](https://extensions.gnome.org/extension/1200/walkpaper/)   
 [Transparency](https://extensions.gnome.org/extension/1011/dynamic-panel-transparency/)   
-
+[Pomodoro](https://extensions.gnome.org/extension/53/pomodoro/)   
 
 ### Outras configurações
 

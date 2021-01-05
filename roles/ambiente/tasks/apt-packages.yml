@@ -42,7 +42,6 @@
     - python-psutil
     - qtbase5-dev
     - rdesktop
-    - rednotebook
     - simplescreenrecorder
     - software-properties-common
     - strace

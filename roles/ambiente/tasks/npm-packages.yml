@@ -1,0 +1,12 @@
+---
+- name: Instalando pacote npm - Newman
+  community.general.npm:
+    name: newman
+    state: latest
+    global: yes
+
+- name: Instalando pacote npm - Grunt
+  community.general.npm:
+    name: grunt-cli
+    state: latest
+    global: yes

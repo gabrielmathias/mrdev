@@ -19,6 +19,7 @@
     - git
     - git-flow
     - gource
+    - gnome-shell-pomodoro
     - gnupg-agent
     - htop
     - iotop
@@ -44,6 +45,7 @@
     - rdesktop
     - simplescreenrecorder
     - software-properties-common
+    - sqlite3
     - strace
     - sysstat
     - tilix

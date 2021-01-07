@@ -1,6 +1,7 @@
 - include: kernel.yml
 - include: apt-packages.yml
 - include: snap-packages.yml
+- include: npm-packages.yml
 
 - name: Garantindo que grupo "ambiente" existe
   group:
